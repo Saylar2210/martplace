@@ -6,8 +6,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/slick-theme.css">
   <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="css/libs.min.css">
   <link rel="stylesheet" href="css/style.min.css">
 </head>
@@ -23,11 +26,11 @@
             </a>
           </div>
       <div class="lock">
-      
-          <a class="header__btn" href="#"> 
+          <div class="header__btn">
+          <a class="btn" href="#"> 
             Become a Seller
           </a>
-       
+      </div>
         
           <ul class="header__icons">
            <li><a class="notification" href="#" >
@@ -200,86 +203,708 @@ congue is laoreet elit metus.
   
   </div>
 </section>
-<section class="weekly-slider">
-  <div class="weekly-slider__inner">
-  <div class="container">
+<section class="cart">
+<div class="container">
+  <div class="cart__newest">
+    <p> Newest Release Products</p>
+    <a href="#">Filter by:</a>
+  </div>
 
-    
-      <div class="weekly-slider__item">
 
-     
-      <div class="weekly-slider__inner-product featured">
-        Weekly Featured Products
-        <div class="featured-btn">
+<div class="products__inner-btn">
+  <button type="button" data-filter="all">All</button>
+  <button type="button" data-filter=".category-wordpress">WordPress</button>
+  <button type="button" data-filter=".category-joomla">Joomla</button>
+  <button type="button" data-filter=".category-plugins">Plugins</button>
+  <button type="button" data-filter=".category-component">Component</button>
+  <button type="button" data-filter=".category-psd">PSD</button>
+</div>
 
+
+<div class="cart__inner">
+
+
+  <div class="cart__item mix category-component category-new" data-order="1">
+    <div class="cart__photo">
+      <div class="cart__photo-btn">
+     <a href="">More Info</a>
+      <a href="">Live Demo</a>
+      </div>
+    </div>
+    <div class="cart__item-contant">
+    <div class="cart__item-title">
+      E-commerce Shopping Cart
+    </div>
+    <div class="cart__item-info info">
+      <div class="info__ava">
+        Theme-Valley
+      </div>
+      <div class="info-plugin">
+        Plugin
+      </div>
+    </div>
+      <div class="cart__item-text">
+        Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque
+        the mattis, leo quam aliquet congue.
+      </div>
+      <div class="cart__item-icon block-icon">
+        <div class="block-icon__likeandk">
+          <div class="block-icon__likeandk-cena">
+           <a href=""> $20</a>
+          </div>
+          <div class="block-icon__likeandk-like">
+           <a href=""> 90</a>
+          </div>
         </div>
+        <div class="cart__basket">
+         <a href=""> 246</a>
+        </div>
+      
       </div>
 
+      </div>
 
-
-        <div class="weekly-slider__item-cart cart">
-          <div class="cart__photo">
-            <img src="images/content/cart-user.jpg" alt="">
-          </div>
-          <div class="cart__contant">
-            <div class="cart__contant-title">
-              One Page Resume Template
-            </div>
-              <div class="cart__active">
-                <div class="cart__active-user">
-                  <div class="circ"></div>
-                   <div class="azz__text"> AazzTech</div>
-                </div>
-                <div class="cart__active-template">
-                  WordPress
-                </div> 
-              </div>
-                <div class="cart__contant-text">
-                  Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the mattis,
-                   leo quam aliquet congue placerat mi id nisi interdum mollis.
-                   Praesent pharetra, justo ut scelerisque the mattis, leo quam aliquet congue justo ut scelerisque.
-                </div>
-                <ul class="cart__contant-plagin">
-                  <li><a href=""> website</a></li>
-                  <li><a href="">plugin</a></li>
-                  <li><a href="">landing page</a></li>
-                </ul>
+  </div>
 
 
 
-
-
-                <div class="cart__contant-icon icon">
-                    <div class="icon__btn">
-
-                    </div>
-                    <div class="icon__like">
-                      <img src="" alt="">
-
-
-                    </div>
-                    <div class="icon__korzina">
-                      <img src="" alt="">
-                    </div>
-                     <div class="icon__star">
-
-                     </div> 
-
-
-
-                </div>
-              </div>
-
-            
-          </div>
+<div class="cart__item mix category-psd category-new" data-order="2">
+  <div class="cart__photo">
+    <div class="cart__photo-btn">
+      <a href="">More Info</a>
+      <a href="">Live Demo</a>
+    </div>
+  </div>
+  <div class="cart__item-contant">
+    <div class="cart__item-title">
+      E-commerce Shopping Cart
+    </div>
+    <div class="cart__item-info info">
+      <div class="info__ava">
+        Theme-Valley
+      </div>
+      <div class="info-plugin">
+        Plugin
+      </div>
+    </div>
+    <div class="cart__item-text">
+      Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque
+      the mattis, leo quam aliquet congue.
+    </div>
+    <div class="cart__item-icon block-icon">
+      <div class="block-icon__likeandk">
+        <div class="block-icon__likeandk-cena">
+          <a href=""> $20</a>
         </div>
-          </div>
+        <div class="block-icon__likeandk-like">
+          <a href=""> 90</a>
+        </div>
+      </div>
+      <div class="cart__basket">
+        <a href=""> 246</a>
       </div>
 
     </div>
+
   </div>
+
+</div>
+
+
+
+<div class="cart__item">
+  <div class="cart__photo">
+    <div class="cart__photo-btn">
+      <a href="">More Info</a>
+      <a href="">Live Demo</a>
+    </div>
+  </div>
+  <div class="cart__item-contant">
+    <div class="cart__item-title">
+      E-commerce Shopping Cart
+    </div>
+    <div class="cart__item-info info">
+      <div class="info__ava">
+        Theme-Valley
+      </div>
+      <div class="info-plugin">
+        Plugin
+      </div>
+    </div>
+    <div class="cart__item-text">
+      Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque
+      the mattis, leo quam aliquet congue.
+    </div>
+    <div class="cart__item-icon block-icon">
+      <div class="block-icon__likeandk">
+        <div class="block-icon__likeandk-cena">
+          <a href=""> $20</a>
+        </div>
+        <div class="block-icon__likeandk-like">
+          <a href=""> 90</a>
+        </div>
+      </div>
+      <div class="cart__basket">
+        <a href=""> 246</a>
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+<div class="cart__item">
+  <div class="cart__photo">
+    <div class="cart__photo-btn">
+      <a href="">More Info</a>
+      <a href="">Live Demo</a>
+    </div>
+  </div>
+  <div class="cart__item-contant">
+    <div class="cart__item-title">
+      E-commerce Shopping Cart
+    </div>
+    <div class="cart__item-info info">
+      <div class="info__ava">
+        Theme-Valley
+      </div>
+      <div class="info-plugin">
+        Plugin
+      </div>
+    </div>
+    <div class="cart__item-text">
+      Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque
+      the mattis, leo quam aliquet congue.
+    </div>
+    <div class="cart__item-icon block-icon">
+      <div class="block-icon__likeandk">
+        <div class="block-icon__likeandk-cena">
+          <a href=""> $20</a>
+        </div>
+        <div class="block-icon__likeandk-like">
+          <a href=""> 90</a>
+        </div>
+      </div>
+      <div class="cart__basket">
+        <a href=""> 246</a>
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+<div class="cart__item">
+  <div class="cart__photo">
+    <div class="cart__photo-btn">
+      <a href="">More Info</a>
+      <a href="">Live Demo</a>
+    </div>
+  </div>
+  <div class="cart__item-contant">
+    <div class="cart__item-title">
+      E-commerce Shopping Cart
+    </div>
+    <div class="cart__item-info info">
+      <div class="info__ava">
+        Theme-Valley
+      </div>
+      <div class="info-plugin">
+        Plugin
+      </div>
+    </div>
+    <div class="cart__item-text">
+      Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque
+      the mattis, leo quam aliquet congue.
+    </div>
+    <div class="cart__item-icon block-icon">
+      <div class="block-icon__likeandk">
+        <div class="block-icon__likeandk-cena">
+          <a href=""> $20</a>
+        </div>
+        <div class="block-icon__likeandk-like">
+          <a href=""> 90</a>
+        </div>
+      </div>
+      <div class="cart__basket">
+        <a href=""> 246</a>
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+
+<div class="cart__item">
+  <div class="cart__photo">
+    <div class="cart__photo-btn">
+      <a href="">More Info</a>
+      <a href="">Live Demo</a>
+    </div>
+  </div>
+  <div class="cart__item-contant">
+    <div class="cart__item-title">
+      E-commerce Shopping Cart
+    </div>
+    <div class="cart__item-info info">
+      <div class="info__ava">
+        Theme-Valley
+      </div>
+      <div class="info-plugin">
+        Plugin
+      </div>
+    </div>
+    <div class="cart__item-text">
+      Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque
+      the mattis, leo quam aliquet congue.
+    </div>
+    <div class="cart__item-icon block-icon">
+      <div class="block-icon__likeandk">
+        <div class="block-icon__likeandk-cena">
+          <a href=""> $20</a>
+        </div>
+        <div class="block-icon__likeandk-like">
+          <a href=""> 90</a>
+        </div>
+      </div>
+      <div class="cart__basket">
+        <a href=""> 246</a>
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+    <div class="cart__bottom-btn">
+          <button type="button" data-filter=".category-new">All New Products</button>
+
+   
+        </div>
+
+
+
+
+  </div>
+</div>
+
 </section>
 
+<section class="followers">
+  <div class="container">
+    <div class="followers__inner">
+    <div class="followers__slider">
+      Your Followers Feed
+      <a class="followers__slider-btn">
+        
+      </a>
+    </div>
+    </div>
+
+
+    
+<div class="slider__follow">
+    <div class="cart__item">
+      <div class="cart__photo">
+        <div class="cart__photo-btn">
+          <a href="">More Info</a>
+          <a href="">Live Demo</a>
+        </div>
+      </div>
+      <div class="cart__item-contant">
+        <div class="cart__item-title">
+          E-commerce Shopping Cart
+        </div>
+        <div class="cart__item-info info">
+          <div class="info__ava">
+            Theme-Valley
+          </div>
+          <div class="info-plugin">
+            Plugin
+          </div>
+        </div>
+        <div class="cart__item-text">
+          Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque
+          the mattis, leo quam aliquet congue.
+        </div>
+        <div class="cart__item-icon block-icon">
+          <div class="block-icon__likeandk">
+            <div class="block-icon__likeandk-cena">
+              <a href=""> $20</a>
+            </div>
+            <div class="block-icon__likeandk-like">
+              <a href=""> 90</a>
+            </div>
+          </div>
+          <div class="cart__basket">
+            <a href=""> 246</a>
+          </div>
+    
+        </div>
+    
+      </div>
+    
+    </div>
+
+
+
+   
+      <div class="cart__item">
+        <div class="cart__photo">
+          <div class="cart__photo-btn">
+            <a href="">More Info</a>
+            <a href="">Live Demo</a>
+          </div>
+        </div>
+        <div class="cart__item-contant">
+          <div class="cart__item-title">
+            E-commerce Shopping Cart
+          </div>
+          <div class="cart__item-info info">
+            <div class="info__ava">
+              Theme-Valley
+            </div>
+            <div class="info-plugin">
+              Plugin
+            </div>
+          </div>
+          <div class="cart__item-text">
+            Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque
+            the mattis, leo quam aliquet congue.
+          </div>
+          <div class="cart__item-icon block-icon">
+            <div class="block-icon__likeandk">
+              <div class="block-icon__likeandk-cena">
+                <a href=""> $20</a>
+              </div>
+              <div class="block-icon__likeandk-like">
+                <a href=""> 90</a>
+              </div>
+            </div>
+            <div class="cart__basket">
+              <a href=""> 246</a>
+            </div>
+    
+          </div>
+    
+        </div>
+    
+      </div>
+
+
+
+
+        <div class="cart__item">
+          <div class="cart__photo">
+            <div class="cart__photo-btn">
+              <a href="">More Info</a>
+              <a href="">Live Demo</a>
+            </div>
+          </div>
+          <div class="cart__item-contant">
+            <div class="cart__item-title">
+              E-commerce Shopping Cart
+            </div>
+            <div class="cart__item-info info">
+              <div class="info__ava">
+                Theme-Valley
+              </div>
+              <div class="info-plugin">
+                Plugin
+              </div>
+            </div>
+            <div class="cart__item-text">
+              Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque
+              the mattis, leo quam aliquet congue.
+            </div>
+            <div class="cart__item-icon block-icon">
+              <div class="block-icon__likeandk">
+                <div class="block-icon__likeandk-cena">
+                  <a href=""> $20</a>
+                </div>
+                <div class="block-icon__likeandk-like">
+                  <a href=""> 90</a>
+                </div>
+              </div>
+              <div class="cart__basket">
+                <a href=""> 246</a>
+              </div>
+      
+            </div>
+      
+          </div>
+      
+        </div>
+
+
+          <div class="cart__item">
+            <div class="cart__photo">
+              <div class="cart__photo-btn">
+                <a href="">More Info</a>
+                <a href="">Live Demo</a>
+              </div>
+            </div>
+            <div class="cart__item-contant">
+              <div class="cart__item-title">
+                E-commerce Shopping Cart
+              </div>
+              <div class="cart__item-info info">
+                <div class="info__ava">
+                  Theme-Valley
+                </div>
+                <div class="info-plugin">
+                  Plugin
+                </div>
+              </div>
+              <div class="cart__item-text">
+                Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque
+                the mattis, leo quam aliquet congue.
+              </div>
+              <div class="cart__item-icon block-icon">
+                <div class="block-icon__likeandk">
+                  <div class="block-icon__likeandk-cena">
+                    <a href=""> $20</a>
+                  </div>
+                  <div class="block-icon__likeandk-like">
+                    <a href=""> 90</a>
+                  </div>
+                </div>
+                <div class="cart__basket">
+                  <a href=""> 246</a>
+                </div>
+          
+              </div>
+          
+            </div>
+          
+          </div>
+
+
+            <div class="cart__item">
+              <div class="cart__photo">
+                <div class="cart__photo-btn">
+                  <a href="">More Info</a>
+                  <a href="">Live Demo</a>
+                </div>
+              </div>
+              <div class="cart__item-contant">
+                <div class="cart__item-title">
+                  E-commerce Shopping Cart
+                </div>
+                <div class="cart__item-info info">
+                  <div class="info__ava">
+                    Theme-Valley
+                  </div>
+                  <div class="info-plugin">
+                    Plugin
+                  </div>
+                </div>
+                <div class="cart__item-text">
+                  Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque
+                  the mattis, leo quam aliquet congue.
+                </div>
+                <div class="cart__item-icon block-icon">
+                  <div class="block-icon__likeandk">
+                    <div class="block-icon__likeandk-cena">
+                      <a href=""> $20</a>
+                    </div>
+                    <div class="block-icon__likeandk-like">
+                      <a href=""> 90</a>
+                    </div>
+                  </div>
+                  <div class="cart__basket">
+                    <a href=""> 246</a>
+                  </div>
+            
+                </div>
+            
+              </div>
+            
+            </div>
+
+
+
+</div>
+
+
+</div>  
+
+
+</section>
+
+<section class="black-line">
+  <div class="black-line__inner">
+  <div class="black-line__icon icon-contant">
+    <ul class="icon-contant ">
+      <li><img src="images/black-line/briefcase.png" alt=""><span class="span-items">38,436</span> items for sale</li>
+      <li><img src="images/black-line/cloud-download.png" alt=""><span class="span-total">3,736</span> total sales</li>
+      <li><img src="images/black-line/smile.png" alt=""><span class="span-happy">2,736</span> happy customers</li>
+      <li><img src="images/black-line/users.png" alt=""><span class="span-members">25,736</span>members </li>
+    </ul>
+  </div>
+  </div>
+
+
+</section class="martplace">
+
+   <div class="container">
+<div class="martplace__text">
+<div class="martplace__text-title">
+Why Choose
+ <span> MartPlace</span>
+</div>
+<div class="martplace__text-contant">
+Laborum dolo rumes fugats untras. Etharums ser quidem rerum facilis dolores nemis omnis fugats. Lid est laborum dolo
+rumes fugats untras.
+</div>
+</div>
+<div class="martplace__inner">
+  <div class="martplace__item">
+    <p>01</p>
+    <img src="images/icons/license.png" alt="">
+    <div class="martplace__item-title">
+      One Time Payment
+    </div>
+    <div class="martplace__item-text">
+      Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque
+      the mattis, leo quam aliquet diam
+      congue is laoreet elit metus.
+    </div>
+  </div>
+
+
+    <div class="martplace__item">
+      <p>01</p>
+      <img src="images/icons/license.png" alt="">
+      <div class="martplace__item-title">
+        One Time Payment
+      </div>
+      <div class="martplace__item-text">
+        Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque
+        the mattis, leo quam aliquet diam
+        congue is laoreet elit metus.
+      </div>
+    </div>
+
+
+
+      <div class="martplace__item">
+        <p>01</p>
+        <img src="images/icons/license.png" alt="">
+        <div class="martplace__item-title">
+          One Time Payment
+        </div>
+        <div class="martplace__item-text">
+          Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque
+          the mattis, leo quam aliquet diam
+          congue is laoreet elit metus.
+        </div>
+      </div>
+
+
+
+
+        <div class="martplace__item">
+          <p>01</p>
+          <img src="images/icons/license.png" alt="">
+          <div class="martplace__item-title">
+            One Time Payment
+          </div>
+          <div class="martplace__item-text">
+            Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque
+            the mattis, leo quam aliquet diam
+            congue is laoreet elit metus.
+          </div>
+        </div>
+
+
+
+          <div class="martplace__item">
+            <p>01</p>
+            <img src="images/icons/license.png" alt="">
+            <div class="martplace__item-title">
+              One Time Payment
+            </div>
+            <div class="martplace__item-text">
+              Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque
+              the mattis, leo quam aliquet diam
+              congue is laoreet elit metus.
+            </div>
+          </div>
+
+
+          <div class="martplace__item">
+            <p>01</p>
+            <img src="images/icons/license.png" alt="">
+            <div class="martplace__item-title">
+              One Time Payment
+            </div>
+            <div class="martplace__item-text">
+              Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque
+              the mattis, leo quam aliquet diam
+              congue is laoreet elit metus.
+            </div>
+          </div>
+
+
+
+       
+</div>
+   </div>
+  </section>
+
+  <section class="shopping-today">
+    <div class="shopping-today__inner">
+      
+
+      <div class="shopping-today__item shopping__sell">
+        <img src="" alt="">
+        <div class="shopping-today__item-title">
+          Sell Your Products
+        </div>
+        <div class="shopping-today__item-text">
+          Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque
+          the mattis, leo quam aliquet diamcongue is laoreet elit metus.
+        </div>
+        <a href="#">Become an Author</a>
+      </div>
+
+      <div class="shopping-today__item shopping__start">
+        <img src="" alt="">
+        <div class="shopping-today__item-title">
+      Start Shopping Today
+        </div>
+        <div class="shopping-today__item-text">
+      Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque
+      the mattis, leo quam aliquet diamcongue is laoreet elit metus.
+        </div>
+        <a href="#">Start Shopping</a>
+      </div>
+    </div>
+  </section>
+     
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+      
   
               
               
