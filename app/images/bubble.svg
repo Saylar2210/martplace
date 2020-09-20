@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="57" height="51" viewBox="0 0 57 51">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 60px;
+        fill: #e8e8e8;
+        font-family: Linearicons-Free, Linearicons;
+      }
+    </style>
+  </defs>
+  <text id="bubble" class="cls-1" y="50.998">bubble</text>
+</svg>
