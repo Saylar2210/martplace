@@ -1,6 +1,23 @@
 html {
     box-sizing: border-box;
   }
+
+
+html,
+body {
+	height: 100%;
+}
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+}
+.content {
+	flex: 1 0 auto;
+}
+.footer {
+	flex: 0 0 auto;
+}
   
   *,
   *::before,
@@ -43,4 +60,8 @@ body{
   font-size: 36px;
   line-height: 60px;
   margin-bottom: 30px;
+}
+.rate-star{
+  display: inline-block;
+  margin-right: 13px;
 }
