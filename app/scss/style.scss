@@ -462,7 +462,9 @@ right: 71px;
   padding-top: 83px;
 }
 
-
+.aside-single{
+  max-width: 363px;
+}
   .aside__item{
       background-color: #eff1f5;
     border-radius: 4px;
@@ -2351,13 +2353,25 @@ flex-wrap: wrap;
 }
 // content start
 .global-content{
-  background-color: #eff1f5;
+  display: flex;
+ max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+  
+ 
 }
+.global-global{
+   
+  background-color: #eff1f5;
+   
+}
+
 .global-content__inner{
 padding-top: 67px;
-
 }
 .wrost__inner{
+  max-width: 750px;
+ 
   .wrost__contant__item{
     max-width: 750px;
     background-color: #fff;
@@ -2439,17 +2453,113 @@ padding-top: 67px;
     }
   }
 }
+
 // lading start
+.lading{
+  max-width: 750px;
+  background-color: #fff;
+}
 .lading-menu{
   display: flex;
-  max-width: 730px;
+  margin-top: 28px;
+
+  
 }
+
 .lading-list{
+  display: flex;
+   margin-bottom: 20px;
+
+  background-color: rgb(255, 255, 255);
+  
+	.active{
+  border-bottom: none;
+  border-top: 3px solid #0674ec;
+}
+li + li{
+  border-left: 1px solid #e8e8e8;
+}
   li{
-    display: inline-block;
+display: inline-block;
+  border-bottom: 1px solid #e8e8e8;
+ &:first-child{
+   padding-left: 0;
+  }
+ &:last-child{
+   border-right:none ;
+  padding-right: 33px;
+  }
+
+    a{
+
+font-size: 17px;
+  padding: 30px;
+  color: #000;
+  text-align: center;
+  padding-top: 20px;
+ 
+  
+
+    }
   }
 
 }
+.lading-contant{
+  padding-left: 30px;
+}
+.lading-contant__item{
+    max-width: 678px;
+  .lading-contant-title{
+    margin-top: 67px;
+    margin-bottom: 40px;
+    font-size: 28px;
+    color: #000;
+  }
+  .lading-contant-text{
+    font-size: 16px;
+    color:#555555;
+  
+  }
+  .lading-contant__list{
+    color: #555;
+    font-size: 16px;
+  }
+   .lading-contant__list-ordered{
+          li span{
+            color:#555;
+            font-size: 15px;
+          }
+          li{list-style:decimal;margin-left: 1.5em;
+            color: #000;
+            padding-left: 10px;
+       
+          }
+
+  }
+  .lading-contant__list-unordered{
+
+   li{
+     padding-left: 31px;
+     position: relative;
+  
+     
+      &::before{
+      content: "";
+      background-image: url(../images/icons/ok.png);
+      width: 13px;
+      height: 10px;
+      position: absolute;
+      left: 0;
+      top: 4px;
+    }
+   }
+  }
+ .lading-contant__photo{
+  padding-bottom: 78px;
+ }
+}
+
+
 
 // content end
 .footer{
