@@ -52,6 +52,12 @@ $('.icon-th-large').on('click', function(){
   $('.icon-th-large').addClass('active');
   $('.icon-th-list').removeClass('active')
 });
+
+
+
+
+
+
 var mixer = mixitup('.cart__inner');
 
 
@@ -63,3 +69,13 @@ $(".rate-star").rateYo({
 });
 
 
+$(document).ready(function(){
+    
+  
+  $(".click").click(function(){
+   
+    $(".drop-down__list").toggle(300);
+      
+  
+  });  
+});
