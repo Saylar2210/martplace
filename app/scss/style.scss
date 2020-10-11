@@ -484,6 +484,7 @@ right: 71px;
   padding-top: 60px;
   display: flex;
   flex-wrap: wrap;
+  padding-bottom: 120px;
 }
     
 
@@ -2460,16 +2461,14 @@ padding-top: 67px;
 .lading{
   max-width: 750px;
   background-color: #fff;
-}
-.lading-menu{
-  display: flex;
   margin-top: 28px;
 
-  
 }
 
-.lading-list{
-  display: flex;
+
+.lading-wrapper{
+  display: inline-block;
+ 
    margin-bottom: 20px;
 
   background-color: rgb(255, 255, 255);
@@ -2477,34 +2476,33 @@ padding-top: 67px;
 	.active{
   border-bottom: none;
   border-top: 3px solid #0674ec;
-}
-li + li{
-  border-left: 1px solid #e8e8e8;
-}
-  li{
-display: inline-block;
-  border-bottom: 1px solid #e8e8e8;
- &:first-child{
-   padding-left: 0;
-  }
- &:last-child{
-   border-right:none ;
-  padding-right: 33px;
-  }
-
-    a{
-
-font-size: 17px;
-  padding: 30px;
-  color: #000;
-  text-align: center;
-  padding-top: 20px;
- 
   
+ 
+}
+.tabs{
+width: 750px;
+  .tab{
+    display: inline-block;
+  border-bottom: 1px solid #e8e8e8;
+   padding: 30px;
 
-    }
-  }
 
+  
+     
+   
+ 
+ & + span{
+  border-left: 1px solid #e8e8e8;
+  &:last-child{
+ 
+    max-width: 196px;
+  width: 100%;}
+ }
+
+   
+}
+
+}
 }
 .lading-contant{
   padding-left: 30px;
