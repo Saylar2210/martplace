@@ -69,22 +69,38 @@ align-items: center;
 }
 span{
   position: absolute;
-  width: 18px;
-  height: 18px;
+  width: 26px;
+  height: 22px;
   border-radius: 50%;
   text-align: center;
   line-height: 18px;
-  right: -7px;
-  top: -7px;
+  right: -16px;
+  top: -15px;
   font-size: 11px;
   color: #fff;
 }
  .notification{
    
     span{
-      background-color: #000;
+      background-color: #ff6a6c;
+      font-size: 14px;
         }
       }
+      .nuntius{
+   
+        span{
+          background-color: #62d03b;
+          font-size: 14px;
+            }
+          }
+
+          .bona{
+   
+            span{
+              background-color: #0674ec;
+              font-size: 14px;
+                }
+              }
  
 li{
   
@@ -122,6 +138,347 @@ li{
 
 
 
+.user__menu{
+  top: 69px;
+  left: 20px;
+  border: 1px solid rgb(204, 204, 204);
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+  padding: 0 20px;
+  width: 158px;
+  transition: all .3s;
+  height: 0;
+  overflow: hidden;
+  z-index: 5;
+ 
+  
+  a{
+    font-size: 12px;
+    color: #546e7a;
+    line-height: 36px;
+    margin-bottom: 15px;
+  }
+}
+.circle__menu{
+  position: absolute;
+  
+  z-index: 1;
+}
+.header__avatar
+{
+
+  position: relative;
+  height: 90px;
+  margin-top: 40px;
+  &:hover{
+    .user__menu{
+      height: auto;
+      border-width:1px;
+      padding: 20px;
+      overflow: auto;
+    }
+  }
+}
+
+.circle__menu{
+top: 68px;
+right: -30px;
+border-top: 1px solid #e0e0e0;
+height: 0;
+overflow: hidden;
+transition: all .3s;
+}
+
+.bona__box,
+.nuntius__box,
+.notification__box
+{
+  position: relative;
+  height: 90px;
+
+  margin-top: 54px;
+  margin-left: 15px;
+  right: 10px;
+  
+  &:hover{
+    .header__circle::before{
+      color: $bg;
+    }
+    .circle__menu{
+     
+      height: auto;
+      transition: all .3s;
+    }
+    .circle__item{
+      padding: 23px 23px;
+      border-width: 1px;
+    }
+  }
+  
+}
+.circle__item{
+  background-color: #fff;
+  border: 0px solid #e0e0e0;
+  border-top: none;
+  border-left-width: 1px;
+  border-right-width: 1px;
+  padding:  0 23px;
+  transition: all .3s;
+  display: flex;
+  align-items: center;
+  color: #b0bec5;
+  font-size: 16px;
+  
+  width: 269px;
+  position: relative;
+  &::before{
+    position: absolute;
+    top: 27px;
+    right: 28px;
+  }
+}
+.circle__images{
+  margin-right: 25px;
+}
+.circle__info-mame{
+
+color: $bg;
+}
+.circle__info-theme{
+  font-size: 12px;
+  color:$green;
+
+}
+.circle__info-price{
+
+color: #000;
+font-size: 16px;
+}
+.circle__info-date{
+  columns: #707070;
+  font-size: 10px;
+}
+
+
+//  home drop
+.home__menu{
+  top: 64px;
+  right: -182px;
+  border: 1px solid rgb(204, 204, 204);
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+  padding: 0 20px;
+  width: 230px;
+  transition: all .5s;
+  height: 0;
+  overflow: hidden;
+  z-index: 5;
+
+  
+  a{
+    font-size: 15px;
+    color: #546e7a;
+    line-height: 36px;
+    margin-bottom: 15px;
+    
+  }
+}
+.home__box{
+  position: relative;
+  height: 90px;
+  margin-top: 40px;
+ 
+  &:hover{
+    .home__menu{
+      height: auto;
+      border-width:1px;
+      padding: 20px;
+      overflow: auto;
+      position: absolute;
+     li{
+       display: block;
+       margin: 0;
+      
+      a{
+        display: block;
+        text-align: left;
+        padding-left: 10px;
+        border-radius: 2px;    
+     &:hover{
+      
+      background-color: rgb(6, 116, 236);   
+      color: #fff;
+      transition: all .3s;
+     
+     }
+  }
+       
+     }
+    
+    }
+  }
+}
+//  home drop end
+
+
+.press__menu{
+  top: 64px;
+  right: -182px;
+  border: 1px solid rgb(204, 204, 204);
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+  padding: 0 20px;
+  width: 230px;
+  transition: all .5s;
+  height: 0;
+  overflow: hidden;
+  z-index: 5;
+
+  
+  a{
+    font-size: 15px;
+    color: #546e7a;
+    line-height: 36px;
+    margin-bottom: 15px;
+    
+  }
+}
+
+.press__box{
+  position: relative;
+  height: 90px;
+  margin-top: 40px;
+ 
+  &:hover{
+    .press__menu{
+      height: auto;
+      border-width:1px;
+      padding: 20px;
+      overflow: auto;
+      position: absolute;
+     li{
+       display: block;
+       margin: 0;
+      
+      a{
+        display: block;
+        text-align: left;
+        padding-left: 10px;
+        border-radius: 2px;    
+     &:hover{
+      
+      background-color: rgb(6, 116, 236);   
+      color: #fff;
+      transition: all .3s;
+     
+     }
+  }
+       
+     }
+    
+    }
+  }
+}
+
+
+
+
+.ss__menu{
+  top: 64px;
+  left: -308px;
+  border: 1px solid rgb(204, 204, 204);
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+  padding: 0 20px;
+  min-width: 1141px;
+  transition: all .5s;
+  height: 0;
+  overflow: hidden;
+  z-index: 5;
+  
+.ss__menu-list{
+  display: flex;
+  padding-bottom: 70px;
+}
+ .ss__menu-1{
+  max-width: 450px;
+  margin-right: 30px;
+   
+     .col2{
+      margin:0;
+      padding:0;
+      list-style-type:none;
+      
+     
+      li{
+        display:block;
+        float:left;
+        width:49%;
+        font-size: 15px;
+        line-height: 42px;
+        
+      }
+     }
+   
+ }
+
+.ss__menu-title{
+  font-size: 16px;
+  color: #000;
+  padding-top: 15px;
+  padding-bottom: 20px;
+  display: block;
+  text-align-last: left;
+  border-bottom: 1px solid rgb(204, 204, 204);
+  max-width: 430px;
+  
+}
+
+  
+  a{
+    font-size: 15px;
+    color: #546e7a;
+    line-height: 36px;
+    margin-bottom: 15px;
+    
+  }
+}
+
+.ss__box{
+  position: relative;
+  height: 90px;
+  margin-top: 40px;
+ 
+  &:hover{
+    .ss__menu{
+      height: auto;
+      border-width:1px;
+      padding: 20px;
+      overflow: auto;
+      position: absolute;
+     li{
+       display: block;
+       margin: 0;
+      
+      a{
+        display: block;
+        text-align: left;
+        padding-left: 10px;
+        border-radius: 2px;    
+     &:hover{
+      
+      background-color: rgb(6, 116, 236);   
+      color: #fff;
+      transition: all .3s;
+     
+     }
+  }
+       
+     }
+    
+    }
+  }
+}
 
 
 
@@ -3870,4 +4227,5 @@ width: 670px;
 
 
 }
+
 
